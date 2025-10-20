@@ -2,8 +2,8 @@ from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
 
 # Input and output files
-inp = "restricted_boltzmann_machine.py"
-out = "restricted_boltzmann_machine.pdf"
+inp = "reservoir.py"
+out = "reservoir.pdf"
 
 # Create a PDF canvas
 c = canvas.Canvas(out, pagesize=letter)
