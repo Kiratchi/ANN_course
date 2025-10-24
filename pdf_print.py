@@ -2,8 +2,8 @@ from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
 
 # Input and output files
-inp = "reservoir.py"
-out = "reservoir.pdf"
+inp = "Tic-tac-toe.py"
+out = "Tic-tac-toe.pdf"
 
 # Create a PDF canvas
 c = canvas.Canvas(out, pagesize=letter)
